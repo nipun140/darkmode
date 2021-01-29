@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Toggle Dark Mode</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="behindBody"></div>
+    <div class="allCont">
+        <header>
+            <div class="title">
+                <h1>Social Media Dashboard</h1>
+                <p>Total Followers: 23,004</p>
+            </div>
+            <div class="darkmodeCont">
+                <p>Dark Mode</p>
+                <div class="outerSlider">
+                    <div class="innerCircle"></div>
+                </div>
+            </div>
+
+        </header>
+
+        <!-- large items  -->
+
+        <div class="largeItems">
+            <div class="largeItem fb">
+                <span class="email"><img class="icon" src="images/icon-facebook.svg" alt="img" />@nathanf</span>
+                <span class="count">1987</span>
+                <span class="followersTxt">Followers</span>
+                <span class="today"><img class="icon" src="images/icon-up.svg" alt="img" />12 Today</span>
+            </div>
+            <div class="largeItem twt">
+                <span class="email"><img class="icon" src="images/icon-twitter.svg" alt="img" />@nathanf</span>
+                <span class="count">1044</span>
+                <span class="followersTxt">Followers</span>
+                <span class="today"><img class="icon" src="images/icon-up.svg" alt="img" />99 Today</span>
+            </div>
+            <div class="largeItem insta">
+                <span class="email"><img class="icon" src="images/icon-instagram.svg" alt="img" />@nathanf</span>
+                <span class="count">11K</span>
+                <span class="followersTxt">Followers</span>
+                <span class="today"><img class="icon" src="images/icon-up.svg" alt="img" />1099 Today</span>
+            </div>
+            <div class="largeItem yt">
+                <span class="email"><img class="icon" src="images/icon-youtube.svg" alt="img" />Nathan F.</span>
+                <span class="count">8239</span>
+                <span class="followersTxt">Followers</span>
+                <span style="color: red;" class="today"><img  class="icon" src="images/icon-down.svg" alt="img" />144 Today</span>
+            </div>
+        </div>
+
+        <!-- small items  -->
+        <br>
+        <h1>Overview - Today</h1>
+        <br>
+        <div class="smallItems">
+            <div class="smallItem">
+                <div class=" row row1">
+                    <span class="text">Page Views</span>
+                    <img class="icon" src="images/icon-facebook.svg" alt="img" />
+                </div>
+                <div class=" row row2">
+                    <span class="count">87</span>
+                    <span class="perc"><img class="icon" src="images/icon-up.svg" alt="img" />3%</span>
+                </div>
+            </div>
+            <div class="smallItem">
+                <div class=" row row1">
+                    <span class="text">Likes</span>
+                    <img class="icon" src="images/icon-facebook.svg" alt="img" />
+                </div>
+                <div class=" row row2">
+                    <span class="count">52</span>
+                    <span style="color: red;" class="perc"><img class="icon" src="images/icon-down.svg" alt="img" />2%</span>
+                </div>
+            </div>
+            <div class="smallItem">
+                <div class=" row row1">
+                    <span class="text">Likes</span>
+                    <img class="icon" src="images/icon-instagram.svg" alt="img" />
+                </div>
+                <div class=" row row2">
+                    <span class="count">5462</span>
+                    <span class="perc"><img class="icon" src="images/icon-up.svg" alt="img" />2257%</span>
+                </div>
+            </div>
+            <div class="smallItem">
+                <div class=" row row1">
+                    <span class="text">Profile Views</span>
+                    <img class="icon" src="images/icon-instagram.svg" alt="img" />
+                </div>
+                <div class=" row row2">
+                    <span class="count">52K</span>
+                    <span class="perc"><img class="icon" src="images/icon-up.svg" alt="img" />1375%</span>
+                </div>
+            </div>
+            <div class="smallItem">
+                <div class=" row row1">
+                    <span class="text">Retweets</span>
+                    <img class="icon" src="images/icon-twitter.svg" alt="img" />
+                </div>
+                <div class=" row row2">
+                    <span class="count">117</span>
+                    <span class="perc"><img class="icon" src="images/icon-up.svg" alt="img" />303%</span>
+                </div>
+            </div>
+            <div class="smallItem">
+                <div class=" row row1">
+                    <span class="text">Likes</span>
+                    <img class="icon" src="images/icon-twitter.svg" alt="img" />
+                </div>
+                <div class=" row row2">
+                    <span class="count">507</span>
+                    <span class="perc"><img class="icon" src="images/icon-up.svg" alt="img" />553%</span>
+                </div>
+            </div>
+            <div class="smallItem">
+                <div class=" row row1">
+                    <span class="text">Likes</span>
+                    <img class="icon" src="images/icon-youtube.svg" alt="img" />
+                </div>
+                <div class=" row row2">
+                    <span class="count">107</span>
+                    <span style="color: red;" class="perc"><img class="icon" src="images/icon-down.svg" alt="img" />19%</span>
+                </div>
+            </div>
+            <div class="smallItem">
+                <div class=" row row1">
+                    <span class="text">Total Views</span>
+                    <img class="icon" src="images/icon-youtube.svg" alt="img" />
+                </div>
+                <div class=" row row2">
+                    <span class="count">1407</span>
+                    <span style="color: red;" class="perc"><img class="icon" src="images/icon-down.svg" alt="img" />12%</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        Made by Nipun
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
